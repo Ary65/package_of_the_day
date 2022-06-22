@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_of_the_day/packages/cached_network_Image/cached_network_image.dart';
 import 'package:package_of_the_day/packages/slide_to_act/slide_to_act.dart';
 import 'package:package_of_the_day/packages/slider_button/slider_button.dart';
 import 'package:slider_button/slider_button.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: SliderButtonPackage(),
+      home: const CachedPackage(),
     );
   }
 }
